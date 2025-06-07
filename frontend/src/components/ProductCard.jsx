@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Dialog, Heading, HStack, IconButton, Image, Portal, Text, CloseButton, Input, VStack } from '@chakra-ui/react';
+import { Box, Button, Dialog, Heading, HStack, IconButton, Image, Portal, Text, CloseButton, Input, VStack, Flex } from '@chakra-ui/react';
 import { FaRegEdit, FaEraser } from "react-icons/fa";
 import { toaster } from "@/components/ui/toaster"
 
@@ -60,12 +60,18 @@ const ProductCard = ({product}) => {
     >
         <Image src={product.image} alt={product.name} h={48} w="full" objectFit="cover" />
         <Box p={4}>
-            <Heading as="h3" size="md" mb={2}>
-                {product.name}    
-            </Heading>
-            <Text fontWeight="bold" fontSize="xl" color={{ base: "gray.600", _dark: "gray.200" }}>
-                ${product.price}
-            </Text>
+            <Flex align="center" justify="space-between" mb={2}>
+                <Heading as="h3" size="md">
+                    {product.name}
+                </Heading>
+                <Text
+                    fontWeight="bold"
+                    fontSize="2xl" // Larger font size
+                    color={{ base: "gray.600", _dark: "gray.200" }}
+                >
+                    ${product.price}
+                </Text>
+            </Flex>
             <HStack spacing={2}>
                 <Dialog.Root lazyMount open={open} onOpenChange={(e) => setOpen(e.open)}>
                     <Dialog.Trigger asChild>
