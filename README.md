@@ -25,13 +25,7 @@ This project showcases my skills in building scalable, maintainable, and user-fr
 - **Backend:** Node.js, Express, Mongoose
 - **Database:** MongoDB
 - **Dev Tools:** Nodemon, ESLint, Prettier
-
----
-
-## 📸 Screenshots
-
-![Product List](./screenshots/product-list.png)
-![Edit Dialog](./screenshots/edit-dialog.png)
+- **Test Tool:** Postman
 
 ---
 
