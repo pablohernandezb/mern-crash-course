@@ -109,7 +109,7 @@ mern-crash-course/
 
 ## 📬 Contact
 
-Feel free to reach out via [GitHub Issues](https://github.com/yourusername/mern-crash-course/issues) or [email](mailto:your.email@example.com).
+Feel free to reach out via [GitHub Issues](https://github.com/yourusername/mern-crash-course/issues) or [email](mailto:hi@pablohernandezb.dev).
 
 ---
 
