@@ -40,7 +40,7 @@ This project showcases my skills in building scalable, maintainable, and user-fr
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/mern-crash-course.git
+   git clone https://github.com/pablohernandezb/mern-crash-course.git
    cd mern-crash-course
    ```
 
@@ -119,4 +119,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> **Made by [Pablo Hernandez Borges](https://github.com/pablohernandezb)**
+> **Made by [Pablo Hernandez Borges](https://github.com/pablohernandezb) following the MERN Crash course by [Burak]([https://github.com/pablohernandezb](https://github.com/burakorkmez))**
