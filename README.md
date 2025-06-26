@@ -119,4 +119,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> **Made by [Pablo Hernandez Borges](https://github.com/pablohernandezb) following the MERN Crash course by [Burak]([https://github.com/pablohernandezb](https://github.com/burakorkmez))**
+> **Made by [Pablo Hernandez Borges](https://github.com/pablohernandezb) following the MERN Crash course by [Burak](https://github.com/burakorkmez)**
